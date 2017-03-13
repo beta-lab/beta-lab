@@ -6,6 +6,5 @@ title: Coucou
 categories:
   - Arduino
 ---
-## A New Post
+![170311_TAKAVOIR_Codez.jpg]({{site.baseurl}}/img/170311_TAKAVOIR_Codez.jpg)
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
