@@ -33,9 +33,9 @@ kramdown:
 ####################################
 #
 owner:
-  name: Wam
+  name: Betablog
   avatar: leonids-logo.png
-  job: "lalalalalalala"
+  job: "Le blog du Bêta-Lab"
   bio:
   email: betalab@labetapi.fr
   twitter: labetapi
