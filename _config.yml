@@ -3,8 +3,8 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
+title: Le Blog du Bêta-Lab
+email: betalab@labetapi.fr
 description: A simple and awesome blog theme powered by jekyll.
 url: https://beta-lab.github.io/leonids/ # the base hostname & protocol for your site
 
@@ -33,37 +33,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: Betablog
   avatar: leonids-logo.png
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
-  email:
-  disqus-shortname:
+  email: betalab@labetapi.fr
   twitter: #username
   facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
   github: #username
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  skype: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
