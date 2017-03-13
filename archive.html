@@ -1,7 +1,8 @@
 ---
 layout: page
-title:  Archive
+title: Archive
 permalink: /archive/
+published: true
 ---
 
 <div class="archive">
@@ -26,7 +27,7 @@ permalink: /archive/
     {% endif %}
     {% endunless %}
     <li>
-      <div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+      <div style="width:60px;float:left;">{{ post.date | date: "%d/%m" }}</div><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
 
