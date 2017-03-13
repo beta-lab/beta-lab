@@ -6,7 +6,7 @@
 title: Le Blog du Bêta-Lab
 email: betalab@labetapi.fr
 description: 
-url: https://beta-lab.github.io/leonids/ # the base hostname & protocol for your site
+url: https://beta-lab.github.io/leonids # the base hostname & protocol for your site
 
 
 #
@@ -38,6 +38,5 @@ owner:
   job: "Le blog du Bêta-Lab"
   bio:
   email: betalab@labetapi.fr
-  twitter: #username
-  facebook: #username
-  github: #username
+  twitter: labetapi
+  facebook: LaBetaPI
