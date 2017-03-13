@@ -5,7 +5,7 @@
 #
 title: Le Blog du Bêta-Lab
 email: betalab@labetapi.fr
-description: A simple and awesome blog theme powered by jekyll.
+description: 
 url: https://beta-lab.github.io/leonids/ # the base hostname & protocol for your site
 
 
@@ -35,8 +35,8 @@ kramdown:
 owner:
   name: Betablog
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job: "Le blog du Bêta-Lab"
+  bio:
   email: betalab@labetapi.fr
   twitter: #username
   facebook: #username
