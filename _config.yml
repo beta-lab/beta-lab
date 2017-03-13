@@ -40,3 +40,57 @@ owner:
   email: betalab@labetapi.fr
   twitter: labetapi
   facebook: LaBetaPI
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://beta-lab.github.io/leonids'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
+      - name: "comments"
+        field:
+          element: "hidden"
+          value: "hidden"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Sélectionner une ou plusieurs catégorie(s)"
+          placeholder: "Catégorie..."
+          options:
+            - name: "Modélisation_3D"
+              value: "Modélisation_3D"
+            - name: "Modélisation_2D"
+              value: "Modélisation_2D"
+            - name: "Arduino"
+              value: "Arduino"
+            - name: "Plotter"
+              value: "Plotter"
+            - name: "Découpeuse_laser"
+              value: "Découpeuse_laser"
+            - name: "Divers"
+              value: "Divers"
+            - name: "Raspberry_Pi"
+              value: "Raspberry_Pi"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Votre nom"
+          placeholder: "Votre nom"
+      - name: "title"
+        field:
+          element: "text"
+label: "title"
