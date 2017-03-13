@@ -42,6 +42,21 @@ published: true
       </p>
     </div>
     {% endif %}
+  
+  {% if post.image.feature %}
+    <div class="post-image-feature">
+      <img src=
+      {% if post.image.feature contains 'http' %}
+      "{{ post.image.feature }}"
+      {% else %}
+      "{{ site.url }}/img/{{ post.image.feature }}"
+      {% endif %}
+      alt="{{ post.title }} feature image">
+
+      
+    </div><!-- /.image-wrap -->
+    {% endif %}
+
 
 </section>
 {% endfor %}
