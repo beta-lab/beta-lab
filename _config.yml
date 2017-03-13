@@ -34,7 +34,7 @@ kramdown:
 #
 owner:
   name: Betablog
-  avatar: leonids-logo.png
+  avatar: img/leonids-logo.png
   job: "Le blog du Bêta-Lab"
   bio:
   email: betalab@labetapi.fr
