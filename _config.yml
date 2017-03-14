@@ -62,8 +62,18 @@ prose:
           value: "hidden"
       - name: "categories"
         field:
-          element: "text"
+          element: "multiselect"
           label: "Catégorie(s)"
+          options:
+            - name: "animations"
+              value: "animations"
+            - name: "événement"
+              value: "événement"
+            - name: "bidouillage"
+              value: "bidouillage"
+            - name: "actu"
+              value: "actu"
+          alterable: "true"
       - name: "title"
         field:
           element: "text"
