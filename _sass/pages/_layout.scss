@@ -22,10 +22,10 @@
   padding: 0 30px;
   .avatar {
     border-radius: 50%;
-    width: 50%;
-    height: 50%;
-    float: none;
-    margin: auto;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    margin-left: -100px;
   }
   .author_name {
     display: block;
