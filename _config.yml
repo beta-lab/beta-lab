@@ -43,7 +43,7 @@ owner:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://beta-lab/leonids'
+  siteurl: 'http://beta-lab.github.io'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'img'
   metadata:
@@ -62,24 +62,8 @@ prose:
           value: "hidden"
       - name: "categories"
         field:
-          element: "multiselect"
-          label: "Sélectionner une ou plusieurs catégorie(s)"
-          placeholder: "Catégorie..."
-          options:
-            - name: "Modélisation_3D"
-              value: "Modélisation_3D"
-            - name: "Modélisation_2D"
-              value: "Modélisation_2D"
-            - name: "Arduino"
-              value: "Arduino"
-            - name: "Plotter"
-              value: "Plotter"
-            - name: "Découpeuse_laser"
-              value: "Découpeuse_laser"
-            - name: "Divers"
-              value: "Divers"
-            - name: "Raspberry_Pi"
-              value: "Raspberry_Pi"
+          element: "text"
+          label: "Catégorie(s)"
       - name: "title"
         field:
           element: "text"
