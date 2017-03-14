@@ -22,8 +22,8 @@
   padding: 0 30px;
   .avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     float: none;
   }
   .author_name {
@@ -43,6 +43,7 @@
   .author_bio {
     font-size: 90%;
     display: block;
+    color: rgb(207, 50, 117);
   }
   @include media-query($medium-screen) {
     text-align: right;
@@ -60,10 +61,10 @@
       display: inline-block;
       margin-left: 1em;
       a.social-link-item {
-        color: $secondary;
+        color: $primary;
         &:hover,
         &:focus {
-          color: lighten($secondary, 14%);
+          color: lighten($primary, 14%);
         }
       }
     }
